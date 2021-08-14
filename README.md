@@ -5,6 +5,7 @@
 - Angular
 - Typescript
 - Bootstrap
+- SCSS
 
 ---
 
