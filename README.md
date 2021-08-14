@@ -20,7 +20,7 @@ ng serve
 ```
 ng generate component component-name
 
----------------------OR-----------------------
+---------------------OR----------------------------
 
 ng generate directive|pipe|service|class|guard|interface|enum|module
 ```
