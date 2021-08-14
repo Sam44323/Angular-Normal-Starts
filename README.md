@@ -1,5 +1,13 @@
 # A demo angular project for practice
 
+<h4 align="center">Techstack</h4>
+
+- Angular
+- Typescript
+- Bootstrap
+
+---
+
 ## Development server
 
 ```
