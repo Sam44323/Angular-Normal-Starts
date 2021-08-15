@@ -1,5 +1,5 @@
 <label>Server Name</label>
-<input [value]="serverInputName" (input)="onServerInputChange($event)" />
+<input type="text" class="form-control" [(ngModel)]="serverInputName" />
 <p>{{ serverInputName }}</p>
 <hr />
 <button
