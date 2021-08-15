@@ -9,6 +9,4 @@
 >
   Add Server
 </button>
-<p *ngIf="showServer">Server was created of name: {{ serverName }}</p>
-git
-<app-server></app-server>
+<app-server *ngFor="let server of serverList"></app-server>
