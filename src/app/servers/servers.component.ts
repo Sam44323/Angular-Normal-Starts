@@ -23,6 +23,7 @@ export class ServersComponent implements OnInit {
   };
 
   onServerInputChange = (e: Event) => {
+    // explicity type casting
     this.serverInputName = (<HTMLInputElement>e.target).value;
   };
 }
