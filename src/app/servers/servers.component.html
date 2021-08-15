@@ -1,7 +1,7 @@
 <label>Server Name</label>
 <input type="text" class="form-control" [(ngModel)]="serverInputName" />
-{{ showServerName ? serverInputName : "" }}
 <hr />
+
 <button
   class="btn btn-primary"
   [disabled]="!addNewServer"
@@ -9,5 +9,5 @@
 >
   Add Server
 </button>
-<p>{{ serverCreationStatus }}</p>
+<p *ngIf="showServer">Server was created of name: {{ serverName }}</p>
 <app-server></app-server>
