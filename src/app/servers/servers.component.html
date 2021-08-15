@@ -9,10 +9,6 @@
 >
   Add Server
 </button>
-<p *ngIf="showServer; else noServer">
-  Server was created of name: {{ serverName }}
-</p>
-<ng-template #noServer>
-  <p>No server was created!</p>
-</ng-template>
+<p *ngIf="showServer">Server was created of name: {{ serverName }}</p>
+git
 <app-server></app-server>
