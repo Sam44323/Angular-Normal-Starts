@@ -22,7 +22,7 @@ ng generate component component-name
 
 ---------------------OR----------------------------
 
-ng generate directive|pipe|service|class|guard|interface|enum|module
+ng generate directive |pipe|service|class|guard|interface|enum|module
 ```
 
 ## Build
