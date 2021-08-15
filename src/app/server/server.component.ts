@@ -14,11 +14,6 @@ export class ServerComponent implements OnInit {
   getServerStatus = () => {
     return this.serverStatus;
   };
-
-  getColor = () => {
-    return this.serverStatus === 'online' ? 'green' : 'salmon';
-  };
-
   constructor() {}
 
   ngOnInit(): void {}
